@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import MyName from './components/Header'
 import Skills from "./components/Skills"
