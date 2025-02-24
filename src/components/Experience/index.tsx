@@ -14,7 +14,7 @@ export default function Experience () {
                         <span className={styles.work_time}>{exp.work_time}</span>
                         <ul className={styles.achieves}>
                         {exp.achieves.map((ach, index) => (
-                            <li className={styles.todo_item_2}>{ach}</li>
+                            <li key={index} className={styles.todo_item_2}>{ach}</li>
                         ))}
                         </ul>
                     </li>

@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import MyName from './components/Header'
 import Skills from "./components/Skills"
@@ -11,8 +9,6 @@ import Contact from "./components/Contact"
 
 const name = "Abdul Suleymanov"
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
       <>
       <div id="left_side">
