@@ -1,0 +1,72 @@
+.experience_block {
+    position: fixed;
+    left: 120vh;
+    top: 3vh;
+    font-size: 20px;
+}
+.experience_title {
+    position: relative;
+    font-size: 4.5vh;
+
+}
+.worker {
+    font-size: 4vh;
+}
+.work_time {
+    color: #2aa643;
+    font-size: 4vh;
+    position: fixed;
+    top: 32vh;
+    left: 128vh;
+}
+.todo_item {
+    position: relative; /* Для позиционирования псевдоэлемента */
+    padding-left: 20px; /* Отступ слева для места под маркер */
+  }
+  
+  .todo_item::before {
+    content: ''; /* Псевдоэлемент без содержимого */
+    position: absolute;
+    left: 0; /* Позиция маркера */
+    top: 23%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: #2aa643; /* Цвет маркера, поменяйте на нужный */
+    border-radius: 50%; /* Закругление для создания круглого маркера */
+  }
+
+.experience_list {
+    position: fixed;
+    left: 113vh;
+    top: 18vh;
+    list-style-type: none;
+  }
+
+.achieves {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40vh;
+    left: 124vh;
+    color: lightblue;
+    list-style-type: none; 
+    font-size: 3.5vh;
+
+}
+.todo_item_2 {
+    position: relative; /* Для позиционирования псевдоэлемента */
+    padding-left: 20px; /* Отступ слева для места под маркер */
+  }
+  
+  .todo_item_2::before {
+    content: ''; /* Псевдоэлемент без содержимого */
+    position: absolute;
+    left: 0; /* Позиция маркера */
+    top: 52%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование */
+    width: 7px; /* Ширина маркера */
+    height: 7px; /* Высота маркера */
+    background-color: #2aa643; /* Цвет маркера, поменяйте на нужный */
+    border-radius: 50%; /* Закругление для создания круглого маркера */
+  }

@@ -1,0 +1,27 @@
+.links_block {
+    display: flex;
+    flex-direction: row;
+    z-index: 100000;
+    gap: 30px;
+}
+.across_title {
+    position: fixed;
+    top: 70vh;
+    left: 4vh;
+    font-size: 5.2vh;
+}
+
+.links {
+    position: relative;
+    top: 41vh;
+    left: 4vh;
+    z-index: 100000;
+    font-size: 4.4vh;
+    gap: 2vh;
+
+}
+.real_links {
+    color: #2aa643;
+
+}
+

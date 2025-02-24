@@ -1,0 +1,20 @@
+
+.skills_title {
+    position: fixed;
+    left: 4vh;
+    top: 27vh;
+    font-size: 4.5vh;
+}
+
+.skills_list {
+    position: fixed;
+    display: flex;
+    list-style-type: none;
+    gap: 2.5vh;
+    top: 38vh;
+    left: -3vh; /* устанавливаем на 0 */
+    color: #2aa643;
+    font-weight: bold;
+    font-size: 3vh;
+}
+

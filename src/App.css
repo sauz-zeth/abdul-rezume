@@ -1,0 +1,21 @@
+.root {
+  position: fixed;
+}
+body{
+  background-color: #0e141b;
+  display: flex;
+}
+#left_side {
+  position: fixed;
+  top: 0vh;
+  height: 100%;
+  width: 110vh;
+  z-index: 9000;
+  background-color: black;
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+#left_side:hover{
+  opacity: 0;
+}

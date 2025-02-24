@@ -1,0 +1,34 @@
+.education_title {
+    color: lightgrey;
+    position: relative;
+    font-size: 5vh;
+}
+.education_block {
+    position: fixed;
+    left: 4vh;
+    top: 45vh;
+}
+
+.education_list {
+    position: relative;
+    color: lightgrey;
+    list-style-type: none;
+    left: -7vh;
+    font-size: 3.3vh;
+}
+.todo_item {
+    position: relative; /* Для позиционирования псевдоэлемента */
+    padding-left: 20px; /* Отступ слева для места под маркер */
+  }
+  
+  .todo_item::before {
+    content: ''; /* Псевдоэлемент без содержимого */
+    position: absolute;
+    left: 0; /* Позиция маркера */
+    top: 50%; /* Центрирование по вертикали */
+    transform: translateY(-50%); /* Центрирование */
+    width: 10px; /* Ширина маркера */
+    height: 10px; /* Высота маркера */
+    background-color: #2aa643; /* Цвет маркера, поменяйте на нужный */
+    border-radius: 50%; /* Закругление для создания круглого маркера */
+  }
